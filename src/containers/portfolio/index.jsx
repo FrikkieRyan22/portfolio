@@ -54,7 +54,9 @@ const Portfolio = () => {
                 {hoveredIndex === key && (
                   <div>
                     <p>{item.projectName}</p>
-                    <button>Visit</button>
+                    <a className="druk" href={item.projectLink} target="_blank" rel="noopener noreferrer">
+                   Visit
+                    </a>
                   </div>
                 )}
               </div>

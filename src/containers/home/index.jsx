@@ -1,14 +1,19 @@
 import React from "react";
 import { Animate } from "react-simple-animate";
-import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook , FaInstagram } from "react-icons/fa";
 import "./styles.scss";
 import MyPdf from '../../resume/Franco_Beukes_Resume.pdf';
 
 const Home = () => {
-  function handleNavigateLinkedin() {
+  function handleNavigateFacebook() {
     window.open(
-      "https://www.linkedin.com/in/sangam-mukherjee-400488134/",
-      "_blank"
+      "https://www.facebook.com/franco.r.beukes"
+    );
+  }
+
+  function handleNavigateInstagram() {
+    window.open(
+      "https://www.instagram.com/franco_met_n_f/"
     );
   }
 
@@ -37,7 +42,8 @@ const Home = () => {
             <a href={MyPdf} download="Franco_Beukes.pdf">Download resume</a>
           </div>
           <div className="contact-me__socials-wrapper">
-            <FaLinkedin onClick={handleNavigateLinkedin} size={32} />
+            <FaFacebook onClick={handleNavigateFacebook} size={32} />
+            <FaInstagram onClick={handleNavigateInstagram} size={32} />
           </div>
         </div>
       </Animate>
