@@ -1,4 +1,4 @@
-import ImageOne from "../../images/image1.jpg";
+import ImageOne from "../../images/todo.jpg";
 import ImageTwo from "../../images/News.jpg";
 import ImageThree from "../../images/image3.jpg";
 import ImageFour from "../../images/image4.jpg";
@@ -8,7 +8,7 @@ export const portfolioData = [
   {
     sectionId: 2,
     projectName: "ToDo Application",
-    projectLink: "", //project link here based on you choice
+    projectLink: " https://frikkie-todo-list.netlify.app/ ", //project link here based on you choice
     image: ImageOne,
   },
   {
@@ -30,7 +30,7 @@ export const filterOptions = [
     id: 2,
   },
   {
-    label: "Design",
+    label: "In-Progress",
     id: 3,
   },
 ];

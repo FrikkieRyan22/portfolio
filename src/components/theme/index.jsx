@@ -5,7 +5,7 @@ import './styles.scss';
 const colorsArray = [
   {
     id: "yellow",
-    bgColor: "#ffdd40",
+    bgColor: "#5BB2F9",
   },
   {
     id: "red",
