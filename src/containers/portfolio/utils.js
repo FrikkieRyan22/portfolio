@@ -1,6 +1,6 @@
 import ImageOne from "../../images/todo.jpg";
 import ImageTwo from "../../images/News.jpg";
-import ImageThree from "../../images/image3.jpg";
+import ImageThree from "../../images/dating.jpg";
 import ImageFour from "../../images/image4.jpg";
 import ImageFive from "../../images/image5.jpg";
 
@@ -17,6 +17,13 @@ export const portfolioData = [
     projectLink: " https://quiet-waters-59694-0fec5b9a4c86.herokuapp.com/ ", //project link here based on you choice
     image: ImageTwo,
   
+  },
+  {
+    id: 3,
+    projectName: "Dating Page App Download",
+    projectLink: "",
+    image: ImageThree,
+    l
   }
 ];
 
