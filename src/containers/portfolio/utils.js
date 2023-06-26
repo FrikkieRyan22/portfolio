@@ -19,11 +19,11 @@ export const portfolioData = [
   
   },
   {
-    id: 3,
+    sectionId: 3,
     projectName: "Dating Page App Download",
     projectLink: "",
     image: ImageThree,
-    l
+    
   }
 ];
 
