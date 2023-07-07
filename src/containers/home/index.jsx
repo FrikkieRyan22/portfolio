@@ -2,7 +2,7 @@ import React from "react";
 import { Animate } from "react-simple-animate";
 import { FaFacebook , FaInstagram } from "react-icons/fa";
 import "./styles.scss";
-import MyPdf from '../../resume/Franco_Beukes_Resume.pdf';
+import MyPdf from '../../resume/Franco_Beukes_CV.pdf';
 
 const Home = () => {
   function handleNavigateFacebook() {
